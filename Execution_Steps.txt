@@ -1,0 +1,13 @@
+1.Go to terminal and install/clone this dependencies
+
+a. pip install openai==0.28
+b. pip install open3d transformers pillow imageio
+c. pip install git+https://github.com/openai/shap-e.git
+d. git clone https://github.com/openai/shap-e.git
+e. cd shap-e
+f. pip install -e .
+g. cd ..
+h. pip install open3d
+
+2. Execute the code in terminal by:
+python testing.py
